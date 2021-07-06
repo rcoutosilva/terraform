@@ -52,5 +52,5 @@ stages:
         inputs:
           command: plan
           workingDirectory: $(terraformWorkingDirectory)
-          environmentServiceName: $(terraformci-conection)
+          environmentServiceName: $(serviceConnection)
           commandOptions: -var location=$(azureLocation)
